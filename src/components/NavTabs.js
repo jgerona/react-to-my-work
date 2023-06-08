@@ -1,6 +1,8 @@
 import React from 'react';
+import '../assets/styles/style.css'
 
 function NavTabs({ currentPage, handlePageChange }) {
+
   return (
     <ul className="nav nav-pills justify-content-center">
       <li className="nav-item">

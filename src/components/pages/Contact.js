@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import { validateEmail } from "../../util/helper";
 
+
 export default function Contact() {
   const [username, setUserame] = useState("");
   const [email, setEmail] = useState("");
@@ -21,16 +22,19 @@ export default function Contact() {
     // Send email/message using backend or email service of choice
     // Clear input fields
   };
-
+  const styles = {
+    background: "#EEEEEE"
+  }
   return (
-    <div className="container mt-4">
-      <div className="align-items-center justify-content-center">
+    <div className="container mt-4 position relative">
+      <h1 className="text-center" style={{color: "#EEEEEE"}}>Contact Me!</h1>
+      <div className="mt-5 align-items-center justify-content-center d-flex flex-column"  >
         <form
           onSubmit={handleSubmit}
           className="row g-2"
         >
-          <div className="mb-3 row d-inline-flex">
-            <label htmlFor="username" className="form-control">
+          <div className="mb-5 row">
+            <label htmlFor="username" className="form-control" style={styles}>
               Your name:
             </label>
             <input
@@ -38,10 +42,11 @@ export default function Contact() {
               id="username"
               value={username}
               onChange={(e) => setUserame(e.target.value)}
+              style={styles}
             />
           </div>
-          <div className="mb-3 row d-inline-flex">
-            <label htmlFor="email" className="form-control">
+          <div className="mb-5 row">
+            <label htmlFor="email" className="form-control" style={styles}>
               Email:
             </label>
             <input
@@ -49,16 +54,18 @@ export default function Contact() {
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
+              style={styles}
             />
           </div>
-          <div className="mb-3 row d-inline-flex">
-            <label htmlFor="message" className="form-control">
+          <div className="mb-5 row">
+            <label htmlFor="message" className="form-control" style={styles}>
               Message:
             </label>
-            <textarea
+            <input
               id="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
+              style={styles}
             />
           </div>
           <div>

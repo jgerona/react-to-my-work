@@ -1,0 +1,14 @@
+/* .nav-item .nav-link {
+    color: #6395C1;
+} */
+.nav-pills .nav-item .nav-link.active{
+    background-color: #6395C1;
+    
+}
+.nav-pills .nav-item .nav-link {
+    color: #EEEEEE
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #6395C1 !important;
+}
