@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-to-my-work/static/css/main.bdf0a314.css",
+    "main.js": "/react-to-my-work/static/js/main.36a15246.js",
+    "static/media/mypic.png": "/react-to-my-work/static/media/mypic.513106830584385f907b.png",
+    "static/media/Crime-Tracker.png": "/react-to-my-work/static/media/Crime-Tracker.4d89715ce6338a0a3e38.png",
+    "static/media/build-a-poem.png": "/react-to-my-work/static/media/build-a-poem.34af8e29ed61348f5669.png",
+    "static/media/Resume.pdf": "/react-to-my-work/static/media/Resume.72062b4542a72be50a32.pdf",
+    "static/media/take-note.png": "/react-to-my-work/static/media/take-note.40be1b33f987450f9bf8.png",
+    "static/media/react.png": "/react-to-my-work/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/tech-thoughts.png": "/react-to-my-work/static/media/tech-thoughts.d42e7431ea4cbbee52b1.png",
+    "static/media/node.png": "/react-to-my-work/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/react-to-my-work/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/html.png": "/react-to-my-work/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/linkedin.png": "/react-to-my-work/static/media/linkedin.8747c659f1fe4f57b1c5.png",
+    "static/media/css.png": "/react-to-my-work/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/react-to-my-work/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/react-to-my-work/index.html",
+    "main.bdf0a314.css.map": "/react-to-my-work/static/css/main.bdf0a314.css.map",
+    "main.36a15246.js.map": "/react-to-my-work/static/js/main.36a15246.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdf0a314.css",
+    "static/js/main.36a15246.js"
+  ]
+}
