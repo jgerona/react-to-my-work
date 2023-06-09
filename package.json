@@ -2,6 +2,7 @@
   "name": "react-to-my-work",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jgerona.github.io/react-to-my-work",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +16,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
