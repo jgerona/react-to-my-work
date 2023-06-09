@@ -26,7 +26,7 @@ export default function PortfolioContainer() {
 
   //change to backgroundimage
   const styles = {
-    background: 'teal',
+    background: '#48bfe3',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
